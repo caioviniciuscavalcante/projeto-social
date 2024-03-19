@@ -13,6 +13,7 @@ html, body {
 }
 
 body { 
+    display: block;
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
@@ -22,8 +23,7 @@ body {
 main {
     position: relative;
     height: 100vh;
-
-}
+    }
 
 section#telefone {
     position: absolute;
